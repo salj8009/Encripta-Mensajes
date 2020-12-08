@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Special+Elite&display=swap");
+body {
+  background-image: linear-gradient(
+    to top,
+    #5a857f,
+    #548e91,
+    #4f97a6,
+    #529ebc,
+    #61a4d1,
+    #64adde,
+    #66b6eb,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  margin: 2em;
+}
+.principal {
+  border: 1px solid #03b3f8;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1em;
+  align-items: center;
+}
+.caja1 {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 80vw;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+#mensajeOriginal {
+  border: solid 1px #275c55;
+  display: flex;
+  font-family: "Cinzel", serif;
+}
+.caja2 {
+  align-self: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  font-family: "Special Elite", cursive;
+  text-align: center;
+}
+.titulo {
+  font-family: "Special Elite", cursive;
+  font-size: 3em;
+  text-align: center;
+  margin: 1em;
+}
+.btnClick,
+#borraResultado {
+  font-family: "Cinzel", serif;
+  padding: 1em 0.5em;
+  margin: 1em;
+}
+.tituloResultado {
+  margin: 1em;
+  padding: 0.5em;
+}
